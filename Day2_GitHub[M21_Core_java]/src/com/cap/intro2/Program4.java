@@ -7,6 +7,6 @@ public class Program4 {
 		Scanner s=new Scanner(System.in);
 		String str=s.next();
 		System.out.println("The String is:"+str);
-		
+		s.close();
 	}
 }
