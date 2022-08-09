@@ -39,7 +39,7 @@ public abstract class BankAcc {
 			this.accNm = accNm;
 		}
 
-		public float getAccBal(float accNo) {
+		public float getAccBal() {
 			return  accBal;
 		}
         public void setAccBal(float accBal) {

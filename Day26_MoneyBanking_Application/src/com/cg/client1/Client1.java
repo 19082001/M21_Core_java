@@ -12,14 +12,14 @@ public class Client1 {
 	public static void main(String[] args) {
 		{
 			BankFactory b=new MMBankFactory();
-			SavingAcc s=new MMSavingAcc (3245,"Snehal",300, true);
-			CurrentAcc c=new MMCurrentAcc (1221,"Gauri",750,4000);
+			SavingAcc s=new MMSavingAcc (3245,"Snehal ",30000, true);
+			CurrentAcc c=new MMCurrentAcc (1221,"Gauri",55000,30000);
 			
 			
-			System.out.println("Saving Account: ");
-			s.withdraw(20000);
+			//System.out.println("Saving Account: ");
+			s.withdraw(10000);
 			
-			System.out.println("Current Account: ");
+			//System.out.println("Current Account: ");
 			c.withdraw(10000);
 			System.out.println(s);
 			System.out.println(c);
