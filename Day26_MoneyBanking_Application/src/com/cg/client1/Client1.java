@@ -16,10 +16,10 @@ public class Client1 {
 			CurrentAcc c=new MMCurrentAcc (1221,"Gauri",55000,30000);
 			
 			
-			//System.out.println("Saving Account: ");
+			System.out.println("Saving Account: ");
 			s.withdraw(10000);
 			
-			//System.out.println("Current Account: ");
+			System.out.println("Current Account: ");
 			c.withdraw(10000);
 			System.out.println(s);
 			System.out.println(c);
